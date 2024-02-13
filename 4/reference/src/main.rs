@@ -1,9 +1,9 @@
 fn main() {
-    let s1 = String::from("hello");
+    let s = String::from("hello");
 
-    let s = calculate_length(&s1);
+    let l = calculate_length(&s);
 
-    println!("the length of '{}' is {}.", s1, s);
+    println!("the length of '{}' is {}.", s, l);
 }
 
 fn calculate_length(s: &String) -> usize {
